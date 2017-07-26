@@ -20,3 +20,5 @@ project() {
   mvn archetype:generate -DgroupId=$1 -DartifactId=$2 -DarchetypeGroupId=pl.bmaraszek -DarchetypeVersion=1.0 -DarchetypeArtifactId=custom-quickstart -DinteractiveMode=false
 }
 ```
+
+More info about creating custom archetype here: `https://dzone.com/articles/creating-a-custom-maven-archetype`
