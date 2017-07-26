@@ -1,5 +1,6 @@
 `mvn clean install` this project in order to be able to invoke:
 
+```
 ########################################################
 #    MAVEN                                             #
 ########################################################
@@ -18,3 +19,4 @@ project() {
   fi
   mvn archetype:generate -DgroupId=$1 -DartifactId=$2 -DarchetypeGroupId=pl.bmaraszek -DarchetypeVersion=1.0 -DarchetypeArtifactId=custom-quickstart -DinteractiveMode=false
 }
+```
